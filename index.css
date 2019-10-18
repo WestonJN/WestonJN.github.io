@@ -54,6 +54,7 @@
 
 .footer {
   grid-column: 1/ -1;
+  height: 35px;
 }
 
 .wrap {
@@ -63,9 +64,22 @@
 
 }
 
-.box{
-
-  padding: 50px;
-
+.name {
+  font-size: 30px;
+  font-family: 'Monospace', sans-serif;
+  text-align: center;
 
 }
+
+.title{
+  font-size: 60px;
+  font-family: 'Monospace', sans-serif;
+  text-align: center;
+
+}
+
+.p1 {
+  color: white;
+  font-size: 20px;
+  font-family: 'Monospace', sans-serif;
+  text-align: left;
