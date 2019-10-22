@@ -92,3 +92,20 @@
   background-color: grey;
   width:auto;
 }
+.about{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+.about .about1{
+  width: 100%;
+  height: 60vh;
+
+}
+.h2{
+  color: black;
+  font-size:30px;
+  font-family: 'Monospace', sans-serif;
+  text-align: inherit;
+  padding-left: 20px;
+}
