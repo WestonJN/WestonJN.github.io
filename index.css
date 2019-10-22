@@ -7,6 +7,7 @@
   height: 100vh;
   background-size: cover;
   background-image: url(PSX_20181212_165706.jpg);
+
 }
 .menu ul{
   text-align: center;
@@ -91,6 +92,17 @@
 .links ul li a:hover{
   background-color: grey;
   width:auto;
+}
+.portfolio .slide{
+  width: 100%;
+  height: 50vh;
+  background-image: url(effigy.png);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  
+
+
 }
 .about{
   display: grid;
