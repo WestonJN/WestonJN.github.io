@@ -9,6 +9,9 @@
   background-image: url(PSX_20181212_165706.jpg);
 
 }
+.menu{
+  position: relative;
+}
 .menu ul{
   text-align: center;
 
@@ -100,7 +103,7 @@
   background-size: contain;
   background-position: left;
   background-repeat: no-repeat;
-  
+
 
 
 }
