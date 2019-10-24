@@ -1,136 +1,170 @@
-<!-- <html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <script src="https://kit.fontawesome.com/ac3272b08e.js" crossorigin="anonymous"></script>
-<title>Weston Profile</title>
-<link rel="stylesheet" href ="index.css">
-<link rel="stylesheet" href ="home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weston Nyirenda</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
-  <div class="container">
-    <div class ="menu">
-      <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="about.html">About </a></li>
-      <li><a href="contact.html">Contact </a></li>
-      </ul>
-    </div>
-
-      <div class ="content">
-           <div class="wrap">
-           <div class= "box">
-              <main>
-                <p class = "name">Weston Nyirenda</p>
-                <p class = "title">Web Developer</p>
-              </main>
-
-           </div>
-
-
-
-           </div>
+    <header>
+      <div class="menu-toggler">
+       <div class="bar half start"></div>
+       <div class="bar "></div>
+       <div class="bar half end"></div>
       </div>
-      <div class ="footer">
-          <a href="https://www.facebook.com/weston.nyirenda"><i class="fab fa-facebook" style="color: blue;"></i></a>
-      </div>
-
-
-
-  </div>
-</body>
-</html> -->
-<html>
-<head><title>Weston Portfolio</title>
-  <link rel="stylesheet" href ="index.css">
-  <link rel="stylesheet" href ="home.css">
-  <script src="https://kit.fontawesome.com/ac3272b08e.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <div class="container">
-   <div class="homecontainer">
-     <div class="menu">
-       <ul> 
-         <li><a href="#">Home</a></li>
-         <li><a href="#">Portfolio</a></li>
-         <li><a href="#">About</a></li>
-         <li><a href="#">Contact</a></li>
-       </ul>
-      </div>
-      <div class="welcome">
-        <main>
-          <p class = "name">Weston Nyirenda</p>
-          <p class = "title">Web Developer</p>
-          <p><a href="https://www.linkedin.com/in/weston-nyirenda-163346b0/"><i class="fab fa-linkedin" style="color: #0e76a8;"></i></a>
-        </main>
-      </div>
-    </div>
-   <div>
-    <div class="portfolio" >
-      <div class="content">
-           <h2>Welcome to my portfolio.</h2>
-          <p>From experimental passion projects to commisioned work for clients. I've had <br>
-            the opportunity to create a variety of projects or the web design industry, mainly<br>
-            using WordPress. My client range comes from a diverse group of industries; House of Lush <br>
-            Mobile Spa and Effigy Photography have been the most prominent.
-          </p>
-          <p>
-           I am currently acquiring web development skills in different programming languages.<br>
-           I thrive on technical challanges and enjoy building strong relationships along the way.
-         </p>
-         <h3>Explore my work below:</h3>
-         </div>
-         <div class="links">
-           <ul>
-             <li><a href="#">House of Lush</a></li>
-             <li><a href="https://effigyphotography.com">Effigy Photography</a></li>
-           </ul>
-           <div class="slide">
-
-          </div>
-         </div>
-
-
-   </div>
-   <div class="about">
-      <div class="about1">
-         <div class="h2"><h2>About</h2></div>
-        <img src="http://hd.wallpaperswide.com/thumbs/css_coding-t2.jpg">
-
-      </div>
-      <div class="content1">
-         <p>This is  alot content</p>
-      </div>
-    </div>
-   <div class="contact">
-     <div class="h2">
-       <h1>Contact Me</h1>
-     </div>
-     <form class="form">
-        <ul>
-          <li>
-              <input type="text" name="field1" class="field-style field-split align-left" placeholder="Name" />
-              <input type="email" name="field2" class="field-style field-split align-right" placeholder="Email" />
-
-          </li>
-          <li>
-              <input type="text" name="field3" class="field-style field-split align-left" placeholder="Phone" />
-              <input type="url" name="field4" class="field-style field-split align-right" placeholder="Website" />
-          </li>
-          <li>
-          <input type="text" name="field3" class="field-style field-full align-none" placeholder="Subject" />
-          </li>
-          <li>
-          <textarea name="field5" class="field-style" placeholder="Message"></textarea>
-          </li>
-          <li>
-          <input type="submit" value="Send Message" />
-          </li>
+      <nav class="top-nav">
+          <ul class="nav-list">
+              <li>
+                <a href="index.html" class= "nav-link">Home</a>
+              </li>
+              <li>
+                <a href="#about" class= "nav-link">About</a>
+              </li>
+              <li>
+                <a href="#portfolio" class= "nav-link">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact" class= "nav-link">Contact</a>
+              </li>
           </ul>
-</form>
-   </div>
+      </nav>
+      <div class="landing-text">
+          <h1>Weston Nyirenda</h1>
+          <h6>Web Developer</h6>
       </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container">
+          <div class="profile-img">
+              <img src="wes.jpg" alt = "">
+          </div>
+          <div class="about-details">
+            <div class="about-heading">
+              <h1>About</h6>
+                <h6>Myself</h6>
+          </div>
+          <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <div class="social-media">
+            <ul class = "nav-list">
+              <li>
+                <a href="#" class="icon-link">
+                  <i class="fab fa-linkedin-square"></i>
+                </a>
+              </li>
+              <li>
+                  <a href="#" class="icon-link">
+                    <i class="fab fa-github-square"></i>
+                  </a>
+                </li>
+            </ul>
+            </div>
+      </div>
+      
+    </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Skills</h1>
+          <h6>My current skill set</h6>
+        </div>
+        <div class="my-skills">
+          <div class="skill">
+            <div class="icon-container">
+              <i class="fas fa-layer-group"></i>  
+            </div>
+            <h1>Web Design</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt
+            </p>
+          </div>
+            <div class="skill">
+              <div class="icon-container">
+                <i class="fas fa-code-group"></i>  
+              </div>
+              <h1>WordPress</h1>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt
+              </p>
+            </div>
+            <div class="skill">
+                <div class="icon-container">
+                  <i class="fas fa-chart-group"></i>  
+                </div>
+                <h1>Photoshop</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt
+                </p>
+              </div>
+            </div>
+          </div>
+             
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+          <div class="section-heading">
+            <h1>Portfolio</h1>
+            <h6>Welcome to my Portfolio</h6>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-img">
+               <img src ="effigy.png">
+            </div>
+            <div class="portfolio-description">
+              <h6>Web Design</h6>
+              <h1>Photography Website</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt
+            </p>
+            <a href="#" class="cta">View Details</a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Contact</h1>
+          <h6>Let's work together</h6>
+        </div>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name:" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email:" required>
+            <label for="subject">Subject:</label>
+            <textarea name="subject" id="subject" cols="10" rows= "10"></textarea>
+            <input type="submit" value="Submit"> 
+
+        </form>
+        </div>
+        </section>
+        <footer class="copyright">
+          <div class="up" id="up">
+            <i class= "fas fa-chevron-up"></i>
+            <p>&copy; 2019 Weston Nyirenda</p>
+          </div>
+        </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
 </body>
-
-
 </html>
