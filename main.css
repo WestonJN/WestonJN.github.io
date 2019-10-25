@@ -15,6 +15,9 @@ height:100%;
 background: url("black.jpg") no-repeat center fixed;
 background-size: cover;
 }
+section{
+    padding: 6rem;
+}
 a{
     text-decoration: none;
     color: #eee;
@@ -38,7 +41,7 @@ img{
 }
 .section-heading{
     text-align: center;
-    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 .section-heading h1{
     font-size: 3.5rem;
@@ -71,6 +74,9 @@ img{
     font-size: 1.6rem;
     font-weight: 300;
     
+}
+.has-margin-right{
+    margin-right: 5rem;
 }
 /*End reusable*/
 
@@ -266,8 +272,34 @@ li{
 /*Start portfolio*/
 .portfolio-item{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
 }
-/*End services*/
+.portfolio-item:last-child{
+    margin-bottom: 0;
+}
+.profile-img{
+    width: 50rem;
+    flex: 1;
+}
+.portfolio-description{
+    flex: 1;
+}
+.portfolio-description h1{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 1rem;
+    
+}
+.portfolio-description h6{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: 0.3;
+}
+
+/*End porfolio*/
 
 /*Start timeline*/
 /*End timeline*/
