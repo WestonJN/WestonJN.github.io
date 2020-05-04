@@ -12,7 +12,7 @@ html{
 body{
 width: 100%;
 height:100%;
-background: url("images/bg.png") no-repeat center fixed;
+background: url("/images/bg.png") no-repeat center fixed;
 background-size: cover;
 }
 section{
@@ -417,7 +417,7 @@ input[type="submit"]:hover{
 @media screen and (max-width: 768px){
     body{
         
-        background: url("images/bg.png") no-repeat center fixed;
+        background: url("/images/bg.png") no-repeat center fixed;
         background-size: cover;
         }
     .landing-text h1{
